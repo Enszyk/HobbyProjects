@@ -1,0 +1,92 @@
+body {
+    background-color: #000000;
+    color: lightgray;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+#container{
+    width: 900px;
+    margin: auto;
+}
+
+#board {
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+}
+
+#gallow {
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+
+#alfabet {
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+
+
+
+.letter {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px; 
+}
+
+#category, #categoryW {
+    padding: 5px;
+    margin: 30px;
+    text-align: center;
+    border: 3px solid gray;
+    cursor: pointer;
+    border-radius: 15px; 
+}
+
+#category:hover {
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+.letter:hover {
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+.resetW {
+    color: green;
+    cursor:pointer; 
+    margin: auto;
+    font-size: 30px;
+}
+
+.resetW:hover {
+    color: rgb(74, 161, 74);;
+}
+.resetL {
+    color: red;
+    cursor:pointer; 
+    margin: auto;
+    font-size: 30px;
+}
+
+.resetL:hover {
+    color: rgb(236, 81, 81);
+}
