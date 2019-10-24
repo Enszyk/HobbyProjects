@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    font-weight: 400;
+    font-size: 30px;
+    color: lightgray;
+}
+
+
+#game {
+    margin-top: 5%;
+}
+
+#board {
+    width: 500px;
+	height: 500px;
+	margin: 0 auto;
+    background-color: #800000;
+    border: 3px solid #800000;
+    border-radius: 10px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+
+.square {
+    border: 3px solid #800000;
+    background-color: black;
+    border-radius: 2px;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 100px;
+    position: relative;
+}
+
+.line, .lineW, .lineC45, .lineC315{ 
+    position: absolute;
+    margin-top: 0px;
+    height: 5px;
+    background-color: lightgrey;
+    width: 150%;
+}
+
+.line {
+    transform: rotate(90deg);
+    -ms-transform:  rotate(90deg); /* IE 9 */
+    -webkit-transform:  rotate(90deg); /* Safari and Chrome */    
+}
+
+.lineW{
+    transform: rotate(0deg);
+    -ms-transform:  rotate(0deg); /* IE 9 */
+    -webkit-transform:  rotate(0deg); /* Safari and Chrome */
+}
+
+.lineC45{
+    transform: rotate(45deg);
+    -ms-transform:  rotate(45deg); /* IE 9 */
+    -webkit-transform:  rotate(45deg); /* Safari and Chrome */
+}
+
+.lineC315{
+    transform: rotate(315deg);
+    -ms-transform:  rotate(315deg); /* IE 9 */
+    -webkit-transform:  rotate(315deg); /* Safari and Chrome */
+}
+
+span {
+    cursor: pointer;
+    color: #800000;
+}
+
+span:hover {
+    color: #E00000
+}
