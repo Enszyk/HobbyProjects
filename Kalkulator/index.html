@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator">
+
+        <div id="result"></div>
+        <div class="calcButton" onclick="deleteLastNumber()">C</div>
+        <div class="calcButton" onclick="changePlusMinus()">+/-</div>
+        <div class="calcButton" onclick="squareRoot()"><span>&#8730;</span></div>
+        <div class="calcButton" onclick="calculateThings('/')"><span>&#247;</span></div>
+
+        <div class="calcButton" onclick="addNumber(7)">7</div>
+        <div class="calcButton" onclick="addNumber(8)">8</div>
+        <div class="calcButton" onclick="addNumber(9)">9</div>
+        <div class="calcButton" onclick="calculateThings('*')">x</div>
+
+        <div class="calcButton" onclick="addNumber(4)">4</div>
+        <div class="calcButton" onclick="addNumber(5)">5</div>
+        <div class="calcButton" onclick="addNumber(6)">6</div>
+        <div class="calcButton" onclick="calculateThings('-')">-</div>
+
+        <div class="calcButton" onclick="addNumber(1)">1</div>
+        <div class="calcButton" onclick="addNumber(2)">2</div>
+        <div class="calcButton" onclick="addNumber(3)">3</div>
+        <div class="calcButton" onclick="calculateThings('+')">+</div>
+
+        <div class="calcButton" onclick="addNumber(0)">0</div>
+        <div class="calcButton" onclick="addNumber('.')">.</div>
+        <div class="calcButton" onclick="deleteNumber()">del</div>
+        <div class="calcButton" onclick="equalitySign()">=</div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
