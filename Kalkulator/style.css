@@ -6,14 +6,18 @@ body {
 }
 
 #calculator {
-    width: 600px;
-    min-height: 750px;
+    width: 35%;
     margin: 50px auto;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #result {
     background-color: rgb(236, 220, 206);
-    min-height: 250px;
+    min-height: 200px;
     border: 1px solid #3d4a5a;
     color: #1a2028;
     text-align: right;
@@ -29,9 +33,8 @@ body {
 
 .calcButton {
     text-align: center;
-    float: left; 
+    float: left;
     min-height: 85px;
-    width: 148px;
     background-color: #1a2028;
     border: 1px solid #3d4a5a;
     padding-top: 15px;
