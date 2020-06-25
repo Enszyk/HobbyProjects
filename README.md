@@ -1,2 +1,2 @@
 # HobbyProjects
-Some small projects made for practice my coding skills
+Some small projects which need more features to be published as it own repository
